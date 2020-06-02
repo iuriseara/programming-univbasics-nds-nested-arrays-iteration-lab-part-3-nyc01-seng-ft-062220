@@ -9,9 +9,9 @@ def join_nested_strings(src)
         if src[row_index][element_index] == src[row_index][element_index].to_s
         string += (src[row_index][element_index] + " ")
       end
-        row_index += 1
+        element_index += 1
       end
-     element_index += 1
+      row_index += 1
    end
-   string 
+   string
 end
